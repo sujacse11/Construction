@@ -203,7 +203,7 @@ nav>button>span{
   position: relative;
   height: 220px;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 /* IMAGE */
@@ -338,6 +338,7 @@ nav>button>span{
 .trusted {
   background: #071a3a;
   padding: 60px 80px;
+  
 }
 
 /* FLEX ROW */
@@ -373,7 +374,7 @@ nav>button>span{
 
 /* TEXT */
 .trusted p {
-  color: #ddd;
+  color:white;
   line-height: 1.6;
 }
 
@@ -624,8 +625,8 @@ nav>button>span{
 }
 
 .subtitle {
-  color: #666;
-  margin-bottom: 30px;  /* reduced gap */
+  color:black;
+  margin-bottom: 30px; 
 }
 
 /* ================= TIMELINE ================= */
@@ -686,7 +687,7 @@ nav>button>span{
 
 .content p {
   font-size: 13px;
-  color: #444;
+  color:black;
   line-height: 1.5;
 }
 
