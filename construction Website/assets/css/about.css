@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald','inter', sans-serif;
+}
+.overall{
+  width:100%;
+  margin:auto;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+
+/* Nav bar*/
+nav>img{
+  width:100px;
+  height:100px;
+}
+nav{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding:10px 0x;
+}
+
+nav>ul{
+  display:flex;
+  justify-content: space-evenly;
+  width:50%;
+}
+nav>ul>li{
+  list-style-type: none;
+  font-family: 'Oswald',sans-serif;
+  font-weight: 600;
+}
+
+nav>ul>li>a:hover{
+    
+  color: #f39c12;
+  cursor: pointer;
+}
+
+nav>button{
+  background-color: orange;
+  padding:10px 20px 10px 10px;
+  border:none;
+  border-radius: 30px;
+  color:white;
+
+}
+
+/*NAV SPAN*/
+nav>button>span{
+  background-color: white;
+  padding:5px 10px;
+  border-radius: 17px;
+  color: black;
+}
+
+/*Banner Content*/
+.banner {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* OVERLAY */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 40px; 
+}
+
+.overlay h1 {
+  color: orange;
+  font-size: 36px;
+  font-family:  'Oswald',sans-serif;
+}
+
+.overlay p {
+  color: #ddd;
+  max-width: 700px;
+  font-size: 10px;
+  font-family:  'inter',sans-serif;
+  
+}
+
+
+
+
+/* CONFIDENCE SECTION */
+
+.conf-banner {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  TOP:20PX;
+}
+
+/* CURVE */
+.conf-banner::after {
+  content: "";
+  position: absolute;
+  bottom: -80px;
+  left: 30%;
+  transform: translateX(-30%);
+
+  width: 130%;
+  height: 120px;
+
+  background: #2f3b55;   
+  border-radius: 30px;
+}
+/* BACKGROUND IMAGE */
+.conf-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* OVERLAY */
+.conf-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* HEADING */
+.conf-overlay h2 {
+  color: #f39c12;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.conf-overlay p {
+  color: #ddd;
+  font-size: 14px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.conf-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px 6px 18px;
+  border: 2px solid #f39c12;
+  border-radius: 30px;
+  background: #f39c12;
+  cursor: pointer;
+  color: white;;
+}
+
+/* SPAN */
+.conf-btn span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background:white;
+  color:black;
+  border-radius: 60px;
+}
+
+/* POINTS */
+.conf-points {
+  margin-top: 15px;
+  color: #ccc;
+  font-size: 13px;
+  display: flex;
+  gap: 20px;
+}
+
+
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 260px;              
+  background: linear-gradient(to right, #0d1b2a, #1b263b);
+  color: #ccc;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;     
+  text-decoration: none;   
+  
+}
+
+/* CONTAINER */
+.footer-container {
+  width: 100%;
+  padding: 0 80px;          
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+/* COLUMN WIDTH */
+.footer-col {
+  width: 22%;
+   text-decoration: none;
+}
+
+
+/* LOGO */
+.footer-col  img {
+  width: 160px;               
+  margin-bottom: 15px;
+   text-decoration: none;
+}
+
+
+/* TEXT */
+.footer-col p {
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 220px;
+  text-decoration: none;
+}
+
+/* HEADINGS */
+.footer-col h3 {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+/* LIST */
+.footer-col ul li {
+  font-size: 10px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+/* CONTACT */
+.contact li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
